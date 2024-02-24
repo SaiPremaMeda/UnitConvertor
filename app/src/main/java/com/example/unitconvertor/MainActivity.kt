@@ -105,7 +105,7 @@ fun convertUnits(){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        Text(text = "Unit Converter", style = customTextStyle)
+        Text(text = "Unit Converter !!", style = customTextStyle)
         Spacer(modifier = Modifier.height(16.dp))
         OutlinedTextField(value = inputValue, onValueChange ={
            inputValue=it
